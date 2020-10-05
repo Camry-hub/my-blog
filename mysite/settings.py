@@ -25,7 +25,7 @@ SECRET_KEY = 'yx_+fql3&7-p((sb!&w3pkw9ulu)b@jz!6nbf2*+j)9pmzk^ti'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['camry.pythonanywhere.com']
 
 
 # Application definition
