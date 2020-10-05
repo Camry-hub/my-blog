@@ -1,0 +1,11 @@
+{% extends "mainwindows/base.html" %}
+{%  block statii-mai %}
+     {% for el in stat %}
+        <div class = "aler">
+        <h1>
+            {{ el.title }}
+        </h1>
+        <p>{{ el.content }}</p>
+        </div>
+        {% endfor %}
+{% endblock %}
